@@ -17,15 +17,14 @@ This work introduces a novel composiitonal data augmentation method SpanSub to e
 
 #### 4.3: Run SpanSub on GeoQuery dataset
 
-### Acknowledgement
+### 5.Acknowledgement
 The code in this repository is partly based on the following baseline implementations: \
-```
-1. GECA(ACL'19) : https://github.com/jacobandreas/geca 
-2. SUBS(NAACL'22) : https://github.com/SALT-NLP/SUBS 
-3. MET-PRIM(EMNLP'22) : https://github.com/owenzx/met-primaug 
+1. GECA(ACL'19) : https://github.com/jacobandreas/geca \
+2. SUBS(NAACL'22) : https://github.com/SALT-NLP/SUBS \
+3. MET-PRIM(EMNLP'22) : https://github.com/owenzx/met-primaug \
 4. Besides, some parsers are adapted from OpenNMT(https://github.com/OpenNMT/OpenNMT-py) and fairseq(https://github.com/pytorch/fairseq)
-```
-### Cite L2S2
+
+### 6.Cite this work
 If you find this repo/paper useful for your research, please consider citing the paper:
 ```
 bibtex of l2s2 paper
