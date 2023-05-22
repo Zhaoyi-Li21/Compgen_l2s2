@@ -3,7 +3,7 @@ Implementation of the paper "Learning to Substitute Span towards Improving Compo
 ### Introduction
 This work introduces a novel composiitonal data augmentation method SpanSub to enable multi-grained sub-components recomposition, and a parameterized and differentiable data augmentation framework to encourage automatical recognition of hard compositions of elusive concepts and novel surroundings.
 <div align="center">
-<img src="./figures/l2s2.jpg" width="70%">
+<img src="./figures/l2s2.jpg" width="60%">
 </div>
 ### Requirements
 
@@ -17,10 +17,10 @@ This work introduces a novel composiitonal data augmentation method SpanSub to e
 #### E.g.3: Run SpanSub on GeoQuery dataset
 
 ### Acknowledgement
-The code in this repository is partly based on the following baseline implementations: \\
-GECA(ACL'19) : https://github.com/jacobandreas/geca \\
-SUBS(NAACL'22) : https://github.com/SALT-NLP/SUBS \\
-MET-PRIM(EMNLP'22) : https://github.com/owenzx/met-primaug \\
+The code in this repository is partly based on the following baseline implementations: \
+GECA(ACL'19) : https://github.com/jacobandreas/geca \
+SUBS(NAACL'22) : https://github.com/SALT-NLP/SUBS \
+MET-PRIM(EMNLP'22) : https://github.com/owenzx/met-primaug \
 Besides, some parsers are adapted from OpenNMT(https://github.com/OpenNMT/OpenNMT-py) and fairseq(https://github.com/pytorch/fairseq)
 
 ### Cite L2S2
