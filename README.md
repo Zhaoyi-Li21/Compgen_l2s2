@@ -24,9 +24,9 @@ The code in this repository is partly based on the following baseline implementa
 1. GECA(ACL'19) : https://github.com/jacobandreas/geca 
 2. SUBS(NAACL'22) : https://github.com/SALT-NLP/SUBS 
 3. MET-PRIM(EMNLP'22) : https://github.com/owenzx/met-primaug 
-4. LexLearn : https://github.com/ekinakyurek/lexical (For its SimpleAlign procedure)
-5. Comp-Transformer : https://github.com/google-research/google-research/tree/master/compositional_transformers (For Transforming COGS data to tree-form)
-6. Besides, some parsers are adapted from OpenNMT(https://github.com/OpenNMT/OpenNMT-py) and fairseq(https://github.com/pytorch/fairseq)
+4. LexLearn(ACL'21) : https://github.com/ekinakyurek/lexical (For its SimpleAlign procedure)
+5. Comp-Transformer(ACL'22) : https://github.com/google-research/google-research/tree/master/compositional_transformers (For Transforming COGS data to tree-form)
+6. Besides, some parsers are adapted from OpenNMT(https://github.com/OpenNMT/OpenNMT-py) and Fairseq(https://github.com/pytorch/fairseq)
 
 ### 6.Cite this work
 If you find this repo/paper useful for your research, please consider citing the paper:
