@@ -1,3 +1,8 @@
+### Update: poster of our work at ACL'2023, Toronto.
+<div align="center">
+<img src="./figures/poster.png" width="80%">
+</div>
+
 # L2S2: Learning to Substitute Spans towards Improving Compositional Generalization
 Implementation of the paper "Learning to Substitute Span towards Improving Compositional Generalization", Zhaoyi Li, Ying Wei and Defu Lian, ACL 2023 Main Conference, Toronto, Canada.
 ### 1.Introduction
