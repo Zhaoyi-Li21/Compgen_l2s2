@@ -1,10 +1,11 @@
-### Update: poster of our work at ACL'2023, Toronto.
+# L2S2: Learning to Substitute Spans towards Improving Compositional Generalization
+Implementation of the paper "Learning to Substitute Span towards Improving Compositional Generalization", Zhaoyi Li, Ying Wei and Defu Lian, ACL 2023 Main Conference (Oral), Toronto, Canada.
+
+### Update: poster of our work at ACL'2023, Toronto, Canada.
 <div align="center">
 <img src="./figures/poster.png" width="80%">
 </div>
 
-# L2S2: Learning to Substitute Spans towards Improving Compositional Generalization
-Implementation of the paper "Learning to Substitute Span towards Improving Compositional Generalization", Zhaoyi Li, Ying Wei and Defu Lian, ACL 2023 Main Conference, Toronto, Canada.
 ### 1.Introduction
 This work introduces a novel composiitonal data augmentation method SpanSub to enable multi-grained sub-components recomposition, and a parameterized and differentiable data augmentation framework to encourage automatical recognition of hard compositions of elusive concepts and novel surroundings.
 <div align="center">
