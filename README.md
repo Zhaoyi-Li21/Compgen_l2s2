@@ -1,5 +1,5 @@
 # L2S2: Learning to Substitute Spans towards Improving Compositional Generalization
-Implementation of the paper "Learning to Substitute Span towards Improving Compositional Generalization", Zhaoyi Li, Ying Wei and Defu Lian, ACL 2023 Main Conference (Oral), Toronto, Canada.
+Implementation of the paper "Learning to Substitute Span towards Improving Compositional Generalization"(https://arxiv.org/abs/2306.02840), Zhaoyi Li, Ying Wei and Defu Lian, ACL 2023 Main Conference (Oral), Toronto, Canada.
 
 ### Update: poster of our work at ACL'2023, Toronto, Canada.
 <div align="center">
@@ -43,7 +43,14 @@ The code in this repository is partly based on the following baseline implementa
 ### 7.Cite this work
 If you find this repo/paper useful for your research, please consider citing the paper:
 ```
-bibtex of l2s2 paper
+@misc{li2023learning,
+      title={Learning to Substitute Spans towards Improving Compositional Generalization}, 
+      author={Zhaoyi Li and Ying Wei and Defu Lian},
+      year={2023},
+      eprint={2306.02840},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 ### 8. P.S.
 This repo is to be completed.
