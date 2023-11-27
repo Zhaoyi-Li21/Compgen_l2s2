@@ -23,13 +23,13 @@ This work introduces a novel composiitonal data augmentation method SpanSub to e
 4. GeoQuery(https://www.cs.utexas.edu/users/ml/nldata/geoquery.html, template split from ACL'18)
 
 ### 5.Experiments
-#### 5.1: Run SpanSub on SCAN dataset
+#### 5.1 SpanSub(e.g., COGS dataset)
 
-#### 5.2: Run L2S2 on SCAN-MCD dataset
 
-#### 5.3: Reproduce SpanSub Results on COGS dataset
+#### 5.2: Learning to Substitute Spans(SCAN-MCD dataset)
 
-#### 5.4: Reproduce SpanSub Results on GeoQuery dataset
+
+#### 5.3: To quick reproduce GeoQuery result
 
 ### 6.Acknowledgement
 The code in this repository is partly based on the following baseline implementations: (Note that we've already cited all of the following papers in our paper.)
@@ -43,13 +43,23 @@ The code in this repository is partly based on the following baseline implementa
 ### 7.Cite this work
 If you find this repo/paper useful for your research, please consider citing the paper:
 ```
-@misc{li2023learning,
-      title={Learning to Substitute Spans towards Improving Compositional Generalization}, 
-      author={Zhaoyi Li and Ying Wei and Defu Lian},
-      year={2023},
-      eprint={2306.02840},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{li-etal-2023-learning,
+    title = "Learning to Substitute Spans towards Improving Compositional Generalization",
+    author = "Li, Zhaoyi  and
+      Wei, Ying  and
+      Lian, Defu",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.157",
+    doi = "10.18653/v1/2023.acl-long.157",
+    pages = "2791--2811",
+    abstract = "Despite the rising prevalence of neural sequence models, recent empirical evidences suggest their deficiency in compositional generalization. One of the current de-facto solutions to this problem is compositional data augmentation, aiming to incur additional compositional inductive bias. Nonetheless, the improvement offered by existing handcrafted augmentation strategies is limited when successful systematic generalization of neural sequence models requires multi-grained compositional bias (i.e., not limited to either lexical or structural biases only) or differentiation of training sequences in an imbalanced difficulty distribution. To address the two challenges, we first propose a novel compositional augmentation strategy dubbed Span Substitution (SpanSub) that enables multi-grained composition of substantial substructures in the whole training set. Over and above that, we introduce the Learning to Substitute Span (L2S2) framework which empowers the learning of span substitution probabilities in SpanSub in an end-to-end manner by maximizing the loss of neural sequence models, so as to outweigh those challenging compositions with elusive concepts and novel surroundings. Our empirical results on three standard compositional generalization benchmarks, including SCAN, COGS and GeoQuery (with an improvement of at most 66.5{\%}, 10.3{\%}, 1.2{\%}, respectively), demonstrate the superiority of SpanSub, L2S2 and their combination.",
 }
 ```
 ### 8. P.S.
