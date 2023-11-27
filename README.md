@@ -1,10 +1,6 @@
 # L2S2: Learning to Substitute Spans towards Improving Compositional Generalization
 Implementation of the paper "Learning to Substitute Span towards Improving Compositional Generalization"(https://arxiv.org/abs/2306.02840), Zhaoyi Li, Ying Wei and Defu Lian, ACL 2023 Main Conference (Oral), Toronto, Canada.
 
-### Update: poster of our work at ACL'2023, Toronto, Canada.
-<div align="center">
-<img src="./figures/poster.png" width="80%">
-</div>
 
 ### 1.Introduction
 This work introduces a novel composiitonal data augmentation method SpanSub to enable multi-grained sub-components recomposition, and a parameterized and differentiable data augmentation framework to encourage automatical recognition of hard compositions of elusive concepts and novel surroundings.
@@ -12,24 +8,38 @@ This work introduces a novel composiitonal data augmentation method SpanSub to e
 <img src="./figures/l2s2.jpg" width="60%">
 </div>
 
-### 2.Requirements
-
-### 3.Install the running environment
-
+### 2.Requirements and Environments
+1. conda environment: refer to ''environment.yml'': ''conda env create -f timer.yml'';
+2. download fairseq: https://github.com/facebookresearch/fairseq
 ### 4.Dataset
-1. SCAN(ICML'18)
+1. SCAN(ICML'18)(https://github.com/brendenlake/SCAN)
 2. SCAN-MCD splits(ICLR'20)
-3. COGS(EMNLP'20)
+3. COGS(EMNLP'20)(https://github.com/najoungkim/COGS)
 4. GeoQuery(https://www.cs.utexas.edu/users/ml/nldata/geoquery.html, template split from ACL'18)
 
 ### 5.Experiments
+#### 5.3: To reproduce GeoQuery result with BART-base
+''experiments/geoquery/quick-reproduce/scripts''
+```
+cd l2s2
+cp spansub/augmentation/geoquery/comp/* experiments/geoquery/quick-reproduce
+cd experiments/geoquery/quick-reproduce
+rm src.train
+rm tgt.train
+rename src_aug.train src.train
+rename tgt_aug.train tgt.train
+bash scripts/preprocess.sh
+bash scripts/bpe.sh
+bash scripts/bart_base_train.sh
+bash scripts/pred_acc.sh # e.g., checkpoints at 9500 steps, acc = 89.72%
+```
 #### 5.1 SpanSub(e.g., COGS dataset)
-
+to do
 
 #### 5.2: Learning to Substitute Spans(SCAN-MCD dataset)
+to do
 
 
-#### 5.3: To quick reproduce GeoQuery result
 
 ### 6.Acknowledgement
 The code in this repository is partly based on the following baseline implementations: (Note that we've already cited all of the following papers in our paper.)
@@ -65,5 +75,8 @@ If you find this repo/paper useful for your research, please consider citing the
 ### 8. P.S.
 This repo is to be completed.
 
-### 9.Contact me
-Hi, This repo may not cover all of the detailed procedures for the experiments you need to conduct. Feel free to email me (lizhaoyi777@mail.ustc.edu.cn) and I will try to help or give suggestions.
+### Update: poster of our work at ACL'2023, Toronto, Canada.
+<div align="center">
+<img src="./figures/poster.png" width="80%">
+</div>
+
