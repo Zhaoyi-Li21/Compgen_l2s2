@@ -34,10 +34,16 @@ bash scripts/bart_base_train.sh
 bash scripts/pred_acc.sh # e.g., checkpoints at 9500 steps, acc = 89.72%
 ```
 #### 5.1 SpanSub(e.g., COGS dataset)
-to do
+```
+cd /data2/home/zhaoyi/l2s2/spansub/augmentation/cogs
+python cogs_aug.v2.py
+```
 
 #### 5.2: Learning to Substitute Spans(SCAN-MCD dataset)
-to do
+```
+cd experiments/scan-mcd/mcd1
+python exp.sh
+```
 
 
 
