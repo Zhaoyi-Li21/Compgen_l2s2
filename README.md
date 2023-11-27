@@ -9,8 +9,14 @@ This work introduces a novel composiitonal data augmentation method SpanSub to e
 </div>
 
 ### 2.Requirements and Environments
-1. conda environment: refer to ''environment.yml'': ''conda env create -f timer.yml'';
+1. conda environment: refer to ''environment.yml'';
+```
+conda env create -f environment.yml
+```
 2. download fairseq: https://github.com/facebookresearch/fairseq
+```
+git clone git@github.com:facebookresearch/fairseq.git
+```
 ### 4.Dataset
 1. SCAN(ICML'18)(https://github.com/brendenlake/SCAN)
 2. SCAN-MCD splits(ICLR'20)
